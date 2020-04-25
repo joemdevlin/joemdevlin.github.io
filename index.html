@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header class="sideBySide">
+      <h1 class="leftSide">Joe Devlin</h1>
+      <img class="rightSideSmall" src="http://placekitten.com/700/700"></img>
+      </div>
+    </header>
+    <section id="navBar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </section>
+    <section id="about" class="contentPage">
+      <h2>About Me</h2>
+      <div class="sideBySide">
+        <p class="leftSide">I grew up in the Portland Metro Area, and attened University of Portland for my undergrad in Computer Science. Currently, I work in test automation and attened Portland State University.  In my free time, I enjoy rock climbing and cooking. </p>
+        <img class="rightSide" src="http://placekitten.com/700/700"></img>
+      </div>
+    </section>
+    <section id="projects" class="contentPage">
+      <h2>Projects</h2>
+      <p>This is info about my projects</p>
+    </section>
+    <section id="contact" class="contentPage">
+      <h2>Contact</h2>
+      <form id="contactForm"action="">
+        <label for="name" class="required singleEle">Name</label><br />
+        <input id="name" type="text" class="singleEle" tile="Must be full name" required="" pattern="[a-zA-Z ]+"/><br />
+        <label for="email" class="required singleEle">Email Address</label><br />
+        <input type="text" id="email" type="email" class="singleEle" required=""/><br />
+        <label for="comments" class="singleEle">Comments?</label><br />
+        <textarea id="comments" rows = "10" cols="60" class="singleEle"></textarea><br />
+        <input type="checkbox" id="checkBox2" class="leftEle"/><label class="rightEle">Sign up for the newsletter</label><br />
+        <input id="submitButton" type="button" value="Submit"class="singleEle"/><br />
+      </form>
+    </section>
+    <footer class="center">
+      <p>Joe Devlin's personal webpage</p>
+    </footer>
+  </body>
+</html>

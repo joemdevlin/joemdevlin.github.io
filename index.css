@@ -1,0 +1,86 @@
+/* Layout elements side by side */
+.sideBySide{
+    display: inline-block;
+}
+.leftSide{
+    float:left;
+    width:50%;
+}
+.rightSide{
+    float:right;
+    width: 50%;
+}
+
+img {
+    object-fit: contain;
+    max-height: auto;
+    max-width: 100%;
+  }
+
+/* Center each page */
+.contentPage{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+/*Header and footer */
+header, footer{
+    background-color: #f1f1f1;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.rightSideSmall{
+    width:20%;
+    margin: auto;
+    float:right;
+}
+
+.center{
+    text-align: center;
+}
+
+/* Navigation Bar */
+#navBar{
+    background-color: black;
+}
+#navBar ul{
+    list-style: none;
+    text-align: center;
+}
+#navBar li{
+    display: inline-block;
+    padding-right: 20px;
+}
+  
+#navBar a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+#navBar a:hover, #navBar a:focus{
+    color: gray;
+}
+
+/*Contact form */
+#contactForm{
+    background-color: lightgray;
+    width: 70%;
+    margin: auto;
+    padding: 5%;
+    text-align: left;
+}
+
+input:invalid:required{
+    border-color: red;
+}
+.required:after{
+    content: " (required)";
+    color: #aaa;
+}
+
+.singleEle{
+    width: 100%;
+}
