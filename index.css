@@ -9,12 +9,3 @@
     width: 70%;
     margin: 15px auto 15px auto;
 }
-
-/*Contact form */
-#contactForm{
-    background-color: lightgray;
-    width: 70%;
-    margin: auto;
-    padding: 5%;
-    text-align: left;
-}

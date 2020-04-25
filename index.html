@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+
     <div id="header" class="jumbotron text-center">
       <h1>Joe Devlin</h1>
       <p>Personal webpage</p> 
@@ -29,35 +30,57 @@
       </div>
     </nav>
 
-    <div id="about" class="contentPage container">
+    <div id="about" class="container contentPage">
       <h2>About Me</h2>
-      <div class="sideBySide">
-        <p class="leftSide">I grew up in the Portland Metro Area, and attened University of Portland for my undergrad in Computer Science. Currently, I work in test automation and attened Portland State University.  In my free time, I enjoy rock climbing and cooking. </p>
-        <img class="rightSide" src="http://placekitten.com/700/700"></img>
+      <div class="row">
+        <div class="col-sm-8">
+          <p>I grew up in the Portland Metro Area, and attened University of Portland for my undergrad in Computer Science. Currently, I work in test automation and attened Portland State University.  In my free time, I enjoy rock climbing and cooking. </p>
+        </div>
+        <div class="col-sm-4">       
+          <img class="col-sm-12" src="http://placekitten.com/700/700"></img>
+        </div>
+      </div>
+
+      <div id="projects" class="container contentPage">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2>Projects</h2>
+            <p>This is info about my projects</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="Contact" class="container contentPage text-left">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-center">Contact Form</h2>
+            <div class="form-group required">
+              <label for="name">Name *</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group required">
+              <label for="email">Email *</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Submit your message:</label>
+              <textarea class="form-control" id="message" rows="5"></textarea>
+            </div>
+            <div class="checkbox">
+              <input id="checkBox" type="checkbox" value="" disabled>
+              <label for="checkBox">Sign up for the newsletter</label>
+            </div>
+            <div class="btn-group d-flex pb-2">
+              <button type="button" class="btn btn-primary btn-lg mr-1">Submit</button>
+              <button type="button" class="btn btn-secondary btn-lg ml-1">Reset</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-
-    <div id="projects" class="contentPage container">
-      <h2>Projects</h2>
-      <p>This is info about my projects</p>
-    </div>
-
-    <div id="contact" class="contentPage container">
-      <h2>Contact</h2>
-      <form id="contactForm"action="">
-        <label for="name" class="required singleEle">Name</label><br />
-        <input id="name" type="text" class="singleEle" tile="Must be full name" required="" pattern="[a-zA-Z ]+"/><br />
-        <label for="email" class="required singleEle">Email Address</label><br />
-        <input type="text" id="email" type="email" class="singleEle" required=""/><br />
-        <label for="comments" class="singleEle">Comments?</label><br />
-        <textarea id="comments" rows = "10" cols="60" class="singleEle"></textarea><br />
-        <input type="checkbox" id="checkBox2" class="leftEle"/><label class="rightEle">Sign up for the newsletter</label><br />
-        <input id="submitButton" type="button" value="Submit"class="singleEle"/><br />
-      </form>
-    </div>
-
     <div id="footer" class="jumbotron text-center">
       <p>Joe Devlin's personal webpageter</p>
     </div>
+    </body>
   </body>
 </html>
