@@ -3,6 +3,10 @@
     margin-bottom:0;
 }
 
+.jumbotron{
+    padding: 0.5em;
+}
+
 .contentPage{
     text-align: center;
     margin: 10px auto 20px auto;
