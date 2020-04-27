@@ -3,9 +3,16 @@
     margin-bottom:0;
 }
 
-/* Center each page */
 .contentPage{
     text-align: center;
+    margin: 10px auto 20px auto;
+}
+
+#contact,
+#about {
     width: 70%;
-    margin: 15px auto 15px auto;
+}
+
+.card-img-top {
+    object-fit: cover;
 }
