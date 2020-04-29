@@ -1,0 +1,8 @@
+.row{
+    max-width: 800px;
+    margin: auto;
+}
+
+.has-error .help-block {
+    color: red;
+  }
